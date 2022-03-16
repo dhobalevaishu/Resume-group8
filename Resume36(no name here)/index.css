@@ -16,7 +16,8 @@
 }
 .first-div{
   background-color: #d69f95;
-  padding: 70px 40px 40px 80px;
+  padding: 70px 40px 70px 80px;
+  margin-bottom: -234px;
 }
 .name{
   font-size: 40px;
@@ -27,6 +28,7 @@
   font-size: 17px;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   margin-left: 50px;
+  padding-bottom: -959px;
 }
 .second-div{
   display: grid;
@@ -81,8 +83,8 @@
 }
 .edu1,.edu2,.edu3,.work1,.work2{
   display: grid;
-  grid-template-columns: 10% 1fr;
-  column-gap: 60px;
+  grid-template-columns: 10% 0 1fr;
+  column-gap: 40px;
 }
 .progrssbar{
   width: 100%;
@@ -132,8 +134,8 @@
   font-size: 16px;
   margin-bottom: 10px;
 }
-.edu1,.edu2,.work1{
-  margin-bottom: 25px;
+.work1{
+  margin-bottom: -35px;
 }
 .year{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -149,21 +151,22 @@
   font-size: 20px;
 }
 .white-box{
-  width: 43%;
+  width: 94%;
   height: 35px;
   background-color: #e4e4e4;
   border-bottom-left-radius: 40px;
   border-bottom-right-radius: 40px;
-  position: absolute;
-  top: 0;
+  position: relative;
+  bottom: 71px;
+  margin-bottom: -32px;
 }
 .img{
-  width: 15%;
-  height: 200px;
+  width: 32%;
+  height: 234px;
   border-radius: 50%;
-  position: absolute;
-  top: 65px;
-  right: 350px;
+  position: relative;
+  top: 110px;
+  right: -480px;
   border: 4px solid #cbccce;
 }
 .img img{
@@ -171,44 +174,34 @@
   height: 100%;
   border-radius: 50%;
 }
-.vl1{
+.vl{
   border-left: 2px solid #d18880;
-  height: 328px;
-  position: absolute;
-  top: 500px;
-  left: 406px;
+  height: 115px;
+  position: relative;
+  top: 20px;
 }
-.vl2{
-  border-left: 2px solid #d18880;
-  height: 159px;
-  position: absolute;
-  top: 953px;
-  left: 406px;
+.vl3{
+  height: 74px;
+}
+.vl5{
+  height: 50px;
 }
 .main-point{
-  width: 15px;
-  height: 15px;
+  width: 16px;
+  height: 16px;
   /* border-radius: 50%; */
   transform: rotate(45deg);
-  background-color: #d18880;position: absolute;
-  top: 0;
-  left: 400px;
-}
-.point1{
-  top: 494px;
-}
-.point2{
-  top: 617px;
-}
-.point3{
-  top: 741px;
+  background-color: #d18880;
+  position: relative;
+  top: 17px;
+  left:  70px;
 }
 .point4{
-  top: 946px;
-}
-.point5{
-  top: 1046px;
+  top: 53px;
 }
 .work{
   margin-bottom: 40px;
+}
+.work h3{
+  bottom  : 58px;
 }

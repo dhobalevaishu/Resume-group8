@@ -37,7 +37,7 @@
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 16px;
 }
-.phone,.email,.web{
+.phone,.email,.web,.location{
   margin-bottom: 15px;
 }
 .tool,.skill,.lang{
@@ -130,18 +130,21 @@ ul li::before {
   height: 11px;
   border-radius: 50%;
   background-color: #4a4d76;
-  position: absolute;
-  left: 607.4px;
+  position: relative;
+  left: -55px;
+  top: 35px;
+  display: inline-block;
 }
 .second-two h3{
   position: relative;
   bottom: 5px;
+  margin-top: 20px;
 }
 .main-hr{
   border: 1px solid #d09e83;
   position: relative;
   top: 40px;
-  height: 842px;
+  height: 892px;
 
 }
 .fill1{
