@@ -5,8 +5,13 @@
   margin: 0;
   box-sizing: border-box;
 }
-.container{
+body{
+  margin: auto;
+  position: relative;
   width: 750px;
+}
+.container{
+  width: 100%;
   margin: auto;
   box-shadow: 0px 0px 7px 2px #ad9a6f;
   line-height: 22px;
@@ -16,15 +21,15 @@
 }
 .first-div{
   background-color: #cf9e80;
-  display: grid;
-  grid-template-columns: 30% 1fr;
   padding: 20px 50px 20px 50px;
+  text-align: center;
 }
 .second-div{
   display: grid;
   grid-template-columns: 35% 0 1fr;
   column-gap: 50px;
   background-color: #e9e6e1;
+  padding-bottom: 40px;
 }
 .second-one{
   margin-left: 50px;
@@ -98,17 +103,19 @@ h3{
   border-radius: 50%;
 }
 .name{
-  font-size: 47px;
+  font-size: 57px;
   color: #4a4d76;
   margin-top: 20px;
   margin-bottom: 20px;
 }
 .lines{
   margin-bottom: 10px;
-
+  position: relative;
+  left: 287px;
 }
 .post{
   color: #4a4d76;
+  margin-bottom: 5px;
 }
 ul {
   list-style: none;
@@ -144,7 +151,7 @@ ul li::before {
   border: 1px solid #d09e83;
   position: relative;
   top: 40px;
-  height: 892px;
+  /* height: 892px;      */
 
 }
 .fill1{
@@ -158,11 +165,52 @@ ul li::before {
 }
 .fill4{
   width: 80%;
-}
-.languages,.awards{
-  padding-bottom: 30px;
-}
+}   
 .hr{
-  width: 100px;
+  width: 77px;
   margin-bottom: 2px;
+}
+.insta,.Twitter,.facebook{
+  display: grid;
+  grid-template-columns:8% 1fr;
+  column-gap: 10px;
+}
+.social i{
+  font-size: 18px;
+  position: relative;
+  top: -10px;
+}
+.social{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.insta,.facebook{
+  margin-bottom: 15px;
+}
+.social i{
+  position: relative;
+  top: 2px;
+}
+.insta{
+  margin-top: 20px;
+}
+.insta,.facebook{
+  margin-bottom: 15px;
+} 
+.p-link{
+  color: rgb(103, 103, 218);
+  margin-bottom: 10px;
+}
+.project2{
+  margin-top: 30px;
+}
+.p-name{
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif  ;
+}
+.skills .progressber{
+  margin-bottom: 10px;
+}
+.languages,.references,.projects{
+  display: none;
 }

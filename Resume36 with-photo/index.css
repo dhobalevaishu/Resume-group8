@@ -145,6 +145,9 @@ body{
 .year{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+.second-two{
+  padding-top: 164px;
+}
 .hobbies-data{
   display: grid;
   grid-template-columns: repeat(3,1fr);
@@ -160,7 +163,7 @@ body{
   border-bottom-right-radius: 40px;
   position: relative;
   bottom: 71px;
-  margin-bottom: 65px;
+  margin-bottom: -32px;
 }
 .img{
   width: 32%;
